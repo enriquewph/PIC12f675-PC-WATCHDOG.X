@@ -53,6 +53,8 @@ void __interrupt() isr(void)
         else
         {
             STATUS_LED = 1;
+            // Reinicio el contador
+            counter = 0;
         }
     }
 }

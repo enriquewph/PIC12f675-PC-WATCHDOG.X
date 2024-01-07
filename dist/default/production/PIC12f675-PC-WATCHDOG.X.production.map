@@ -6,10 +6,10 @@ Linker command line:
   --edf=C:/SPB_Data/packs/Microchip/PIC10-12Fxxx_DFP/1.6.174/xc8\pic\dat\20230421221704_en.msgs \
   -cn -h+dist/default/production\PIC12f675-PC-WATCHDOG.X.production.sym \
   --cmf=dist/default/production\PIC12f675-PC-WATCHDOG.X.production.cmf -z \
-  -Q12F675 -oC:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_3.o \
+  -Q12F675 -oC:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_3.o \
   --defsym=__MPLAB_BUILD=1 --fixupoverflow=error \
   -Mdist/default/production/PIC12f675-PC-WATCHDOG.X.production.map \
-  --md=C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_0.dat -E1 \
+  --md=C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_0.dat -E1 \
   -ver=XC8 Compiler --acfsm=1493 -ACODE=00h-03FEh -ASTRCODE=00h-03FEh \
   -ASTRING=00h-0FFhx3,0300h-03FEh -ACONST=00h-0FFhx3,0300h-03FEh \
   -AENTRY=00h-0FFhx3,0300h-03FEh -ABANK0=020h-05Dh -ARAM=020h-05Dh \
@@ -19,7 +19,7 @@ Linker command line:
   -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 \
   -preset_vec=00h,intentry=04h,init,end_init -ppowerup=CODE -pcinit=CODE \
   -pfunctab=ENTRY -posccal=03FFh -k \
-  C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o \
+  C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o \
   dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o 
 
 Object code version is 3.11
@@ -29,7 +29,7 @@ Machine type is 12F675
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
+C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
                 end_init                              D        D        1        8       0
                 reset_vec                             0        0        1        0       0
                 config                             2007     2007        1        0       4
@@ -37,7 +37,7 @@ dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
                 cinit                                 E        E        4        8       0
                 intentry                              4        4        9        8       0
                 config                             2007     2007        1        0       4
-                text2                                7F       7F       2B        8       0
+                text2                                7F       7F       2C        8       0
                 text1                                4E       4E       31        8       0
                 maintext                             12       12       3C        8       0
                 cstackBANK0                          20       20        A       20       1
@@ -49,7 +49,7 @@ TOTAL           Name                               Link     Load   Length     Sp
                 cinit                                 E        E        4         0
                 intentry                              4        4        9         0
                 reset_vec                             0        0        1         0
-                text2                                7F       7F       2B         0
+                text2                                7F       7F       2C         0
                 text1                                4E       4E       31         0
                 maintext                             12       12       3C         0
 
@@ -92,7 +92,7 @@ TOTAL           Name                               Link     Load   Length     Sp
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
 
                 reset_vec                      000000  000001  000001         0       0  CODE        2
-                intentry                       000004  0000A6  0000AA         8       0  CODE        2
+                intentry                       000004  0000A7  0000AB         8       0  CODE        2
                 cstackBANK0                    000020  00000B  00002B        20       1  BANK0       1
 
 
@@ -101,20 +101,20 @@ UNUSED ADDRESS RANGES
         Name                Unused          Largest block    Delta
         BANK0            002B-005D             33           1
         CODE             0001-0003              3           2
-                         00AA-03FE            355
+                         00AB-03FE            354
         CONST            0001-0003              3           2
-                         00AA-03FE            100
+                         00AB-03FE            100
         EEDATA           2100-217F             80           2
         ENTRY            0001-0003              3           2
-                         00AA-03FE            100
+                         00AB-03FE            100
         IDLOC            2000-2003              4           2
         RAM              002B-005D             33           1
         SFR0             0000-001F             20           1
         SFR1             0080-00DD             5E           1
         STRCODE          0001-0003              3           2
-                         00AA-03FE            355
+                         00AB-03FE            354
         STRING           0001-0003              3           2
-                         00AA-03FE            100
+                         00AB-03FE            100
 
                                   Symbol Table
 
@@ -196,7 +196,7 @@ __Lspace_4                  (abs)        0000
 __Lstack                    stack        07FE
 __Lstrings                  strings      07FE
 __Ltext                     text         07FE
-__S0                        (abs)        00AA
+__S0                        (abs)        00AB
 __S1                        (abs)        002B
 __S3                        (abs)        0000
 ___int_sp                   stack        07FE
@@ -206,7 +206,7 @@ ___sp                       stack        07FE
 ___stackhi                  (abs)        0000
 ___stacklo                  (abs)        0000
 __end_of__initialization    cinit        0010
-__end_of_isr                text2        00AA
+__end_of_isr                text2        00AB
 __end_of_led_start_sequence text1        007F
 __end_of_main               maintext     004E
 __initialization            cinit        000E
@@ -247,8 +247,8 @@ shared estimated size: 2
 
 main.c
 		_main          		CODE           	0012	0000	60
-		_isr           		CODE           	007F	0000	43
+		_isr           		CODE           	007F	0000	44
 		_led_start_sequence		CODE           	004E	0000	49
 
-main.c estimated size: 152
+main.c estimated size: 153
 

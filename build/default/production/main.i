@@ -1196,6 +1196,8 @@ void __attribute__((picinterrupt(("")))) isr(void)
         else
         {
             GPIObits.GPIO0 = 1;
+
+            counter = 0;
         }
     }
 }
@@ -1203,9 +1205,8 @@ void __attribute__((picinterrupt(("")))) isr(void)
 void led_start_sequence()
 {
 
-
     _delay((unsigned long)((1000)*(4000000/4000.0)));
-    for (uint8_t i = 0; i < 30; i++)
+    for (uint8_t i = 0; i < 10; i++)
     {
         GPIObits.GPIO0 = 1;
         _delay((unsigned long)((50)*(4000000/4000.0)));

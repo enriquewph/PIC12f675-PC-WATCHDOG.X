@@ -1,24 +1,24 @@
 ### HEXMate logfile and output summary ###
 
 ### Command-line arguments ###
- C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_3.o
+ C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_3.o
  -Odist/default/production\PIC12f675-PC-WATCHDOG.X.production.hex
  -logfile=dist/default/production\PIC12f675-PC-WATCHDOG.X.production.hxl
  -addressing=2
 
 ### Memory Usage ###
  Input file ranges:
-  0h - 1h		(C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_3.o)
-  8h - 153h		(C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_3.o)
-  400Eh - 400Fh		(C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_3.o)
+  0h - 1h		(C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_3.o)
+  8h - 155h		(C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_3.o)
+  400Eh - 400Fh		(C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_3.o)
  Unused ranges:
   2h - 7h
-  154h - 400Dh
+  156h - 400Dh
 
 ### Hex Memory Map ###
  Legend:
   -- = Unused memory
-  H1 = Input file             (C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_3.o)
+  H1 = Input file             (C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_3.o)
 ----------------------------------------------------------
          | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ----------------------------------------------------------
@@ -43,6 +43,6 @@
 00000120 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000130 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000140 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00000150 | H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- -- -- --
+00000150 | H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- --
 ----------------------------------------------------------
 00004000 | -- -- -- -- -- -- -- -- -- -- -- -- -- -- H1 H1

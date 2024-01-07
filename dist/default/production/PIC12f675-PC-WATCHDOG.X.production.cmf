@@ -14,13 +14,13 @@
 $dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 cinit CODE 0 E E 4 2 1
 text1 CODE 0 4E 4E 31 2 1
-text2 CODE 0 7F 7F 2B 2 1
+text2 CODE 0 7F 7F 2C 2 1
 maintext CODE 0 12 12 3C 2 1
 cstackBANK0 BANK0 1 20 20 A 1 1
 intentry CODE 0 4 4 9 2 1
 bssBANK0 BANK0 1 2A 2A 1 1 1
 config CONFIG 4 2007 2007 1 2 1
-$C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
+$C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
 reset_vec CODE 0 0 0 1 2 1
 end_init CODE 0 D D 1 2 1
 config CONFIG 4 2007 2007 1 2 1
@@ -33,19 +33,19 @@ config CONFIG 4 2007 2007 1 2 1
 RAM 2B-5D 1
 BANK0 2B-5D 1
 CONST 1-3 2
-CONST AA-3FE 2
+CONST AB-3FE 2
 ENTRY 1-3 2
-ENTRY AA-3FE 2
+ENTRY AB-3FE 2
 IDLOC 2000-2003 2
 CODE 1-3 2
-CODE AA-3FE 2
+CODE AB-3FE 2
 SFR0 0-1F 1
 SFR1 80-DD 1
 EEDATA 2100-217F 2
 STRCODE 1-3 2
-STRCODE AA-3FE 2
+STRCODE AB-3FE 2
 STRING 1-3 2
-STRING AA-3FE 2
+STRING AB-3FE 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -60,13 +60,13 @@ STRING AA-3FE 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
-E cinit CODE >272:C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_1.s
-E cinit CODE >275:C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_1.s
-E cinit CODE >286:C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_1.s
-F cinit CODE >287:C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_1.s
-10 cinit CODE >293:C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_1.s
-10 cinit CODE >295:C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_1.s
-11 cinit CODE >296:C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_1.s
+E cinit CODE >272:C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_1.s
+E cinit CODE >275:C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_1.s
+E cinit CODE >286:C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_1.s
+F cinit CODE >287:C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_1.s
+10 cinit CODE >293:C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_1.s
+10 cinit CODE >295:C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_1.s
+11 cinit CODE >296:C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_1.s
 4 intentry CODE >35:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
 7F text2 CODE >35:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
 7F text2 CODE >38:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
@@ -82,40 +82,41 @@ F cinit CODE >287:C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_1.s
 A0 text2 CODE >52:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
 A1 text2 CODE >53:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
 A1 text2 CODE >55:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-A2 text2 CODE >58:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-4E text1 CODE >60:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-4E text1 CODE >64:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-5C text1 CODE >65:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-5E text1 CODE >67:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-5F text1 CODE >68:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-68 text1 CODE >69:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-6A text1 CODE >70:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-73 text1 CODE >71:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-7A text1 CODE >71:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-7E text1 CODE >72:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-12 maintext CODE >74:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-12 maintext CODE >76:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-13 maintext CODE >82:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-16 maintext CODE >86:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-18 maintext CODE >87:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-1A maintext CODE >88:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-1C maintext CODE >89:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-1F maintext CODE >90:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-21 maintext CODE >91:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-23 maintext CODE >94:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-25 maintext CODE >95:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-27 maintext CODE >96:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-29 maintext CODE >99:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-2A maintext CODE >100:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-2D maintext CODE >101:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-2F maintext CODE >103:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-30 maintext CODE >107:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-33 maintext CODE >107:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-37 maintext CODE >109:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-38 maintext CODE >110:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-3C maintext CODE >112:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-3D maintext CODE >113:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
-4A maintext CODE >114:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+A2 text2 CODE >57:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+A3 text2 CODE >60:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+4E text1 CODE >62:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+4E text1 CODE >65:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+5C text1 CODE >66:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+5E text1 CODE >68:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+5F text1 CODE >69:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+68 text1 CODE >70:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+6A text1 CODE >71:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+73 text1 CODE >72:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+7A text1 CODE >72:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+7E text1 CODE >73:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+12 maintext CODE >75:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+12 maintext CODE >77:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+13 maintext CODE >83:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+16 maintext CODE >87:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+18 maintext CODE >88:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+1A maintext CODE >89:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+1C maintext CODE >90:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+1F maintext CODE >91:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+21 maintext CODE >92:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+23 maintext CODE >95:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+25 maintext CODE >96:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+27 maintext CODE >97:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+29 maintext CODE >100:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+2A maintext CODE >101:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+2D maintext CODE >102:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+2F maintext CODE >104:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+30 maintext CODE >108:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+33 maintext CODE >108:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+37 maintext CODE >110:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+38 maintext CODE >111:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+3C maintext CODE >113:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+3D maintext CODE >114:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
+4A maintext CODE >115:D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -140,17 +141,17 @@ __Hstrings 7FE 0 ABS 0 strings -
 _GPIO 5 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 _PIE1 8C 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 _PIR1 C 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
-___sp 7FE 0 STACK 2 stack C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
+___sp 7FE 0 STACK 2 stack C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
 _main 24 0 CODE 0 maintext dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 btemp 5E 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
-start 1A 0 CODE 0 init C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
+start 1A 0 CODE 0 init C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
 wtemp0 5E 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 7FE 0 ABS 0 clrtext -
@@ -159,12 +160,12 @@ _ADCON0 1F 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.
 __Lmaintext 7FE 0 ABS 0 maintext -
 _INTCON B 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 _OPTION_REG 81 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
-___stacklo 0 0 ABS 0 - C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
+___stackhi 0 0 ABS 0 - C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
+___stacklo 0 0 ABS 0 - C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
 start_initialization 1C 0 CODE 0 cinit dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 _TRISIO 85 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
-___int_sp 7FE 0 STACK 2 stack C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
+___int_sp 7FE 0 STACK 2 stack C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
 __Hbank0 7FE 0 ABS 0 bank0 -
 __Hbank1 7FE 0 BANK1 1 bank1 -
 __Hcinit 24 0 CODE 0 cinit -
@@ -190,22 +191,22 @@ __Lsfr0 7FE 0 ABS 0 sfr0 -
 __Lsfr1 7FE 0 ABS 0 sfr1 -
 __Ltext 7FE 0 ABS 0 text -
 __LcstackBANK0 7FE 0 ABS 0 cstackBANK0 -
-__S0 AA 0 ABS 0 - -
+__S0 AB 0 ABS 0 - -
 __S1 2B 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
 _isr FE 0 CODE 0 text2 dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 saved_w 5E 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 __Hosccal 7FE 0 CODE 0 osccal -
-__end_of_isr 154 0 CODE 0 text2 dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
+__end_of_isr 156 0 CODE 0 text2 dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
 __LbssBANK0 7FE 0 ABS 0 bssBANK0 -
 _PIE1bits 8C 0 ABS 0 - dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 __pmaintext 24 0 CODE 0 maintext dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 __end_of_led_start_sequence FE 0 CODE 0 text1 dist/default/production\PIC12f675-PC-WATCHDOG.X.production.o
 __Lcommon 7FE 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
-___osccal_val 7FE 0 CODE 0 osccal C:\Users\quiqu\AppData\Local\Temp\xcAsgak.\driver_tmp_12.o
+___osccal_val 7FE 0 CODE 0 osccal C:\Users\quiqu\AppData\Local\Temp\xcAs51k.\driver_tmp_12.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
@@ -271,7 +272,7 @@ _counter 2A 0 BANK0 1 bssBANK0 dist/default/production\PIC12f675-PC-WATCHDOG.X.p
 # All other numeric quantities are in decimal.
 %SEGMENTS
 cstackBANK0 1 20 20 B 1
-intentry 0 4 8 A6 2
+intentry 0 4 8 A7 2
 reset_vec 0 0 0 1 2
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section

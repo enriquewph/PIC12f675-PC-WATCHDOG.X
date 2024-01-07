@@ -13,9 +13,9 @@
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
 "35 D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
 [v _isr isr `II(v  1 e 1 0 ]
-"60
+"62
 [v _led_start_sequence led_start_sequence `(v  1 e 1 0 ]
-"74
+"75
 [v _main main `(v  1 e 1 0 ]
 "218 C:/SPB_Data/packs/Microchip/PIC10-12Fxxx_DFP/1.6.174/xc8\pic\include\proc\pic12f675.h
 [v _GPIO GPIO `VEuc  1 e 1 @5 ]
@@ -86,20 +86,20 @@
 [v _ANSEL ANSEL `VEuc  1 e 1 @159 ]
 "32 D:\dev\PIC12f675-PC-WATCHDOG.X\main.c
 [v _counter counter `uc  1 e 1 0 ]
-"74
+"75
 [v _main main `(v  1 e 1 0 ]
 {
-"118
+"119
 } 0
-"60
+"62
 [v _led_start_sequence led_start_sequence `(v  1 e 1 0 ]
 {
-"65
+"66
 [v led_start_sequence@i i `uc  1 a 1 6 ]
-"72
+"73
 } 0
 "35
 [v _isr isr `II(v  1 e 1 0 ]
 {
-"58
+"60
 } 0
